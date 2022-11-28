@@ -91,6 +91,7 @@ button{
 .bgcolorwhite{
     background-color: white;
 }
+
 /* header */
 
 .header-top{
@@ -145,8 +146,18 @@ main{
 
 /* it takes two */
 
+.bgitt{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .containeritt{
     width: 500px;
+}
+.ittlogo{
+    width: 300px;
+    height: auto;
 }
 
 /* footer */
