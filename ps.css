@@ -55,9 +55,6 @@ button{
     filter: invert(1);
 }
 
-.borderbottblue{
-    border-bottom: 2px solid rgb(0,114,206);
-}
 
 /* colors */
 
@@ -171,8 +168,13 @@ main{
 .opacity-img:hover{
     opacity: 1;
 }
-
+.fitunpair{
+    border-bottom: 2px solid transparent;
+}
 .fitunpair:hover{
+    border-bottom: 2px solid rgb(0,114,206);
+}
+.borderbottblue{
     border-bottom: 2px solid rgb(0,114,206);
 }
 
