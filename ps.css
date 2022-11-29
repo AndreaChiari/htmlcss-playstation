@@ -165,8 +165,15 @@ main{
 
 /* ps 5 showcase */
 
-.fitunpair img:not(:.bbblue){
-    opacity: (0.5);
+.opacity-img{
+    opacity:0.5;
+}
+.opacity-img:hover{
+    opacity: 1;
+}
+
+.fitunpair:hover{
+    border-bottom: 2px solid rgb(0,114,206);
 }
 
 /* footer */
