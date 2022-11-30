@@ -144,6 +144,24 @@ main{
     max-width: 50%;
 }
 
+/* ratchet and clank */
+
+@keyframes moveup {
+
+    0% { transform:translateY(0px);}
+    50% {transform: translateY(-25px) ;}
+    100% {transform:translateY(0px);}
+
+}
+
+.cardclank:hover{
+    animation-name: moveup;
+    animation-duration: 0.5s;
+
+}
+
+
+
 /* it takes two */
 
 .bgitt{
